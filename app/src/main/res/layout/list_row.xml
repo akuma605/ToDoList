@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ca257bd7"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewListId"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/stat_sys_upload_done"/>
+
+    <TextView
+        android:id="@+id/imageViewTitleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Do"
+        android:layout_toRightOf="@+id/imageViewListId"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:id="@+id/imageViewDeleteId"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_delete"/>
+
+</RelativeLayout>
